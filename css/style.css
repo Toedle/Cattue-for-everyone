@@ -1,0 +1,96 @@
+
+body{
+	background-color: lightgrey;
+	margin:0;
+	padding:0;
+	font-weight: normal;
+	text-align: center;
+}
+.baslik{
+	display: block;
+	font-size: 25pt;
+	font-family: Futura,Trebuchet MS,Arial,sans-serif;
+	color: #c0143e;
+	line-height: 0px;
+	font-weight: bold;
+
+}
+.sosyal-medya{
+	display: block;
+	font-size: 15pt;
+	font-family: Futura,Trebuchet MS,Arial,sans-serif;
+	color: #c0143e;
+	padding: 50px 0px;
+	line-height: 0px;
+	font-weight: bold;
+
+}	
+.sosyalbutonlar{
+	margin-top: 50px;
+	display: inline-block;
+	position: relative;
+	left: 0px;
+  	
+	
+	}
+	
+.sosyalbutonlar a  {
+  background:#a1a1a1;
+	text-decoration: none;
+	color: #FFF;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	border-radius: 10px;
+	margin-right: 20px;
+	font-size: 30px;
+	overflow: hidden;
+	position: relative;
+	line-height: 60px;
+	text-align: center;
+  }
+    
+.sosyalbutonlar a{  
+   transition: transform 0.4s linear 0s, 
+	 border-top-left-radius 0.1s linear 0s, 
+	 border-top-right-radius 0.1s linear 0.1s, 
+	 border-bottom-right-radius 0.1s linear 0.2s, 
+	 border-bottom-left-radius 0.1s linear 0.3s;
+ 	
+}
+
+.sosyalbutonlar .facebook:hover {
+      background-color: #3b5998;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+
+  .sosyalbutonlar .twitter:hover   {
+      background-color: #00aced;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+  
+ .sosyalbutonlar .google-plus:hover   {
+      background-color: #dd4b39;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+
+ .sosyalbutonlar .instagram:hover   {
+      background-color: #bc2a8d;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+
+ .sosyalbutonlar .linkedin:hover   {
+      background-color: #00aced;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+
+ .sosyalbutonlar .youtube:hover   {
+       background-color: #bb0000;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
